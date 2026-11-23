@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0;
+    user-select: none;   
+    
+}
+
+
+.weather-box.night-mode{
+    .icon-box{
+        background-color: #54595c;
+    }
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
+
+
+
+
+
+.weather-box {
+    width: 490px;
+    background-color: rgb(208, 223, 236);
+    border: 2px solid black;
+    padding: 12px 14px;
+    box-sizing: border-box;
+}
+
+.search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.search-row input {
+    flex: 1;
+    padding: 6px 8px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+.search-row button {
+    width: 86px;
+    box-sizing: content-box;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.loader-box {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.loader-img {
+    width: 42px;
+    height: 42px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.left-col p {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+.right-col {
+    text-align: center;
+    min-width: 135px;
+}
+
+.right-col p {
+    margin: 6px 0;
+    font-size: 17px;
+}
+
+.icon-box {
+    width: 112px;
+    height: 76px;
+    border: 2px solid black;
+    border-radius: 14px;
+    background-color: #6fcee9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto;
+}
+
+.icon-box img {
+    width: 56px;
+    height: 56px;
+}
